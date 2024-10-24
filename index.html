@@ -1,19 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loja de Caminhões</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <h1 class="titulo">Frota de Gigantes</h1>
-        <div class="tela-inicial">
-            <p>
-                Trabalhando duro para levar o melhor até você, somos seu parceiro nessa estrada a frente! Juntos somos a força que move seu negocio
-            </p>
-        </div>
-        <link rel="stylesheet" href="style.css">
+    <header>
+        <h1>Loja de Caminhões</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <section id="home">
+        <h2>Bem-vindo à Nossa Loja!</h2>
+        <p>Seu Caminhão, Sua Estrada.</p>
+        <button><a href="#modelos">Confira Nossos Modelos</a></button>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Fundada em 2020, a nossa loja é especializada na venda de caminhões de alta qualidade.</p>
+    </section>
+
+    <section id="modelos">
+        <h2>Nossos Modelos</h2>
+        <div class="modelo">
+            <h3>Caminhão Leve</h3>
+            <img src="caminhao-leve.jpg" alt="Caminhão Leve">
+            <p>Descrição do caminhão leve.</p>
+            <button>Saiba Mais</button>
+        </div>
+        <!-- Adicione mais modelos aqui -->
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Vendas e Financiamento</li>
+            <li>Manutenção e Revisão</li>
+            <li>Venda de Peças Sobressalentes</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem"></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2024 Loja de Caminhões. Todos os direitos reservados.
+    </footer>
+
 </body>
 </html>
