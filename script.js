@@ -1,11 +1,11 @@
 
 document.getElementById('carregar-modelos').addEventListener('click', function() {
     const modelos = [
-        'Caminhão Ford Cargo',
-        'Caminhão Volkswagen Delivery',
-        'Caminhão Mercedes-Benz Actros',
-        'Caminhão Scania R440',
-        'Caminhão Iveco Stralis'
+        'Caminhão verde',
+        'Caminhão pink',
+        'Caminhão vermelho',
+        'Caminhão preto',
+        'Caminhão roxo'
     ];
 
     const lista = document.getElementById('lista-modelos');
